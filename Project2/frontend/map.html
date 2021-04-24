@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>College Guide</title>
+    <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+      <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!-- Bootsrap for Nav Bar-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <a class="navbar-brand" id= "fill" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="map.html">Map<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="find.html">Find a School<span class="sr-only">(current)</span></a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+    <h1>School Locations</h1>
+    <div id="map" style="height: 500px;">
+
+    </div>
+</body>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="static/js/config.js"></script>
+    <script src="static/js/map.js"></script>
+</html>
